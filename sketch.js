@@ -36,6 +36,9 @@ function setup() {
 function draw() {
   image(bed, 0, 0, 400, 400);
 
+  textAlign(CENTER, CENTER);
+  text("Oh No! You've got bedbugs,", 200, 40);
+
   for (x = 0; x < bedbugs.length; x++) {
     bedbugs[x].scuttle();
     bedbugs[x].show();
