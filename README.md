@@ -76,7 +76,7 @@ class Bedbug {
   }
 ```
 
-I used a class to assign the images to the objects, and the constructer worked to build a new instance of the class randomly everytime it loops.
+I used a class to assign the images to the objects, and the constructor worked to add the correct variables to every new instance of the class.
 
 Website that I found helpful for classes:
 
@@ -102,7 +102,7 @@ I was having a bit of a problem with the bedbugs showing up all over the screen 
   }
 ```
 
-I figured out that it wasn't working because the example code was set to the edges of the screen. This didn't work, so I had to come up with a custom range that would be centered around the bed.
+I figured out that it wasn't working because the example code was set to the edges of the screen. This didn't work, so I had to add custom variables centered around the bed (`bedOffsetX`, `bedOffsetY`, `bedSizeX`, `bedSizeY`) to the numbers that dictate where the edges are.
 
 This worked very well, and after some adjustments it looked good. Next, I just added some text.
 
