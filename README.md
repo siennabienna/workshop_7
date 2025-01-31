@@ -84,7 +84,7 @@ https://www.w3schools.com/jsref/jsref_constructor_class.asp
 
 # Assigning Boundries for Bedbugs
 
-In order to keep the bedbugs on the blanket, I had to make a `checkEdges` function. This is how I did it:
+I was having a bit of a problem with the bedbugs showing up all over the screen and not just on the bed. I tried to use the example code from the workshop video, but they still weren't only staying on the bed. In order to keep the bedbugs on the blanket, I had update `checkEdges` function. This is how I did it:
 
 ```js
   checkEdges() {
@@ -101,6 +101,8 @@ In order to keep the bedbugs on the blanket, I had to make a `checkEdges` functi
 
   }
 ```
+
+I figured out that it wasn't working because the example code was set to the edges of the screen. This didn't work, so I had to come up with a custom range that would be centered around the bed.
 
 This worked very well, and after some adjustments it looked good. Next, I just added some text.
 
